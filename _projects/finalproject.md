@@ -22,17 +22,18 @@ Complaints
 
 
 
-# Second Viz
+# Contextual Visualizations
 
-For the second visualization, I simply got the frequency of the top cities and created a bar chart to visualize the most popular cities for the buildings. For the coloring, I just let altair automatically select different colors for the different bars to make it easy for the reader to see the difference in frequencies between the top cities. In order for me to make this visualization work, I had to do .head(10) to pick out the top 10 cities and then reset index so altair can properly read the data. For this visualization, there isn't any interactivity and is a more straightforward visualization.
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/weeds.json" style="width: 100%"></vegachart>
 
-# Third Viz
-
 <vegachart schema-url="{{ site.baseurl }}/assets/json/waste.json" style="width: 100%"></vegachart>
 
+# Information
+For my first visualization, it is an interactive graph where the user can select a month and a year and the graph will show all the different types of complaints that were filed and how many for each. The purpose of this is to visualize which complaints were more popular and less popular for a given specific month and year. For example, during the summer months, you can notice a trend that weeds/grass always tends to have the most complaints no matter the year. 
 
+For both these contextual visualizations, I'm showing the distribution in the fees paid for each case. The first visualization is specifically for fees paid for Weeds/Grass complaints and the second visualization is for Municipal Waste complaints. If you look closely, you'll notice that the typical fees paid for municipal waste are slightly higher than the fees paid for weeds/grass. 
 
 <!-- these are written in a combo of html and liquid --> 
 
