@@ -12,7 +12,7 @@ custom_js:
 
 # Final Project
 <h2>Group Members: Max Tao</h2>
-<h2>Link: </h2>
+<a href='https://data.illinois.gov/Local-Government/City-Of-Urbana-Nuisance-Complaints/64q4-57u5/about_data'>Link to Dataset</a>
 
 # First Viz
 
@@ -36,11 +36,7 @@ For the second visualization, I simply got the frequency of the top cities and c
 
 <!-- these are written in a combo of html and liquid --> 
 
-<div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="The Data" %}
-</div>
-
-<div class="right">
-{% include elements/button.html link="https://github.com/WorstProgrammer7636/worstprogrammer7636.github.io/blob/main/python_notebooks/finalproject.ipynb" text="The Analysis" %}
+<div class="center">
+{% include elements/button.html link="https://github.com/WorstProgrammer7636/worstprogrammer7636.github.io/blob/main/python_notebooks/finalproject.ipynb" text="Python Notebook" %}
 </div>
 
