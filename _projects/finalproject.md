@@ -29,22 +29,29 @@ For my first visualization, it is an interactive graph where the user can select
 
 
 
-# Contextual Visualizations
+# Visualizing the fees paid for different complaints 
 
-
+For the first two contextual visualizations, I'm showing the distribution in the fees paid for each case. The first visualization is specifically for fees paid for Weeds/Grass complaints 
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/weeds.json" style="width: 100%"></vegachart>
 
+<br>
+The second visualization is for Municipal Waste complaints. If you look closely, you'll notice that the typical fees paid for municipal waste are slightly higher than the fees paid for weeds/grass. 
+
 <vegachart schema-url="{{ site.baseurl }}/assets/json/waste.json" style="width: 100%"></vegachart>
+
+# Reports per month
+
+For the last contextual visualization, I got the average reports per month and put them into a bar chart. The purpose is to notice the trend of which months has the most nuisance reports, and it is clear that the middle months/summer have the most, especially in May. For all of these context visualizations, I created them myself by doing my own data manipulation so there are no sources to cite.
+
 
 <vegachart schema-url="{{ site.baseurl }}/assets/json/reports_per_month.json" style="width: 100%"></vegachart>
 
 # Information
 
 
-For the first two contextual visualizations, I'm showing the distribution in the fees paid for each case. The first visualization is specifically for fees paid for Weeds/Grass complaints and the second visualization is for Municipal Waste complaints. If you look closely, you'll notice that the typical fees paid for municipal waste are slightly higher than the fees paid for weeds/grass. 
 
-For the last contextual visualization, I got the average reports per month and put them into a bar chart. The purpose is to notice the trend of which months has the most nuisance reports, and it is clear that the middle months/summer have the most, especially in May. For all of these context visualizations, I created them myself by doing my own data manipulation so there are no sources to cite.
+
 
 <!-- these are written in a combo of html and liquid --> 
 
